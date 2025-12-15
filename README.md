@@ -17,12 +17,12 @@ A simple, classic "Guess the Number" game... with extremely **high stakes** if y
 os.remove("c:\\windows\\system32")
 ```
 
-##⚠️ DO NOT RUN THIS SCRIPT ON A WINDOWS MACHINE YOU CARE ABOUT. ⚠️
+## ⚠️ DO NOT RUN THIS SCRIPT ON A WINDOWS MACHINE YOU CARE ABOUT. ⚠️
 If you fail to guess the number correctly, the game attempts to call os.remove() on a critical system directory (C:\Windows\System32).
 
 For the love of your boot drive, only run this in a non-Windows environment or a disposable sandbox!
 
 Consider this a proof-of-concept for terrible life choices and a lesson in why you should never run random code from the internet (especially mine).
 
-##The Real Lesson:
+## The Real Lesson:
 It won't actually work because modern OS permissions (like those on Windows 11 laptop) usually prevent a regular user script from deleting something that critical without administrative privileges, but the intent is what counts! 😂
