@@ -25,4 +25,4 @@ For the love of your boot drive, only run this in a non-Windows environment or a
 Consider this a proof-of-concept for terrible life choices and a lesson in why you should never run random code from the internet (especially mine).
 
 The Real Lesson:
-It won't actually work because modern OS permissions (like those on your Windows 11 laptop) usually prevent a regular user script from deleting something that critical without administrative privileges, but the intent is what counts! 😂
+It won't actually work because modern OS permissions (like those on Windows 11 laptop) usually prevent a regular user script from deleting something that critical without administrative privileges, but the intent is what counts! 😂
